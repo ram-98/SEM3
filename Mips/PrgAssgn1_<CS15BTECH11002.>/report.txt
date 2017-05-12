@@ -1,0 +1,54 @@
+TABLE-----------
+
+    INSERTION SORT- NO OF COMPARISIONS
+            N-25    ------
+                    ASCENDING--- 24
+                    DESCENDING-- 300
+                    RANDOM------ 159
+            N-50     ------
+                    ASCENDING---49
+                    DESCENDING-- 1225
+                    RANDOM------ 645
+            N-75    ------
+                    ASCENDING--- 74
+                    DESCENDING-- 2775
+                    RANDOM------ 1460
+            N-100   ------
+                    ASCENDING--- 99
+                    DESCENDING-- 4950
+                    RANDOM------ 2480
+        MERGE SORT- NO OF COMPARISIONS
+            N-25    ------
+                    ASCENDING---  64
+                    DESCENDING--  54
+                    RANDOM------  90
+            N-50     ------
+                    ASCENDING---  153
+                    DESCENDING--  133
+                    RANDOM------  227
+            N-75    ------
+                    ASCENDING--- 252
+                    DESCENDING-- 220
+                    RANDOM------ 373
+            N-100   ------
+                    ASCENDING--- 356
+                    DESCENDING-- 316
+                    RANDOM------ 545
+
+REPORT--------------------------
+
+        From both the tables we can observe that merge sort is faster than insertion sort
+        because in merge sort time complexicity is of O(nlogn) where as its O(n*n) in insertion.
+
+        Now but in insertion sort the number of comparisons of ascending < desecending as it takes 
+        each element to check its previous element .so thereby by, for  random the value of COMPARISIONS
+        is intermidiate as predicted by results
+
+        But in merge sort the case is completely different, the number of comparisons of ascending > desecending
+        as in the time of merging, the comparision step in descending takes less steps because of immidiate 
+        termination of "loop1" and jump into loop2 because of the shift of all elements of array2 into original array.
+        Where as in random the pattern is not as nice or predictable ,so the no. of comparisions is greater than both 
+        of them as we got above in our table.   
+
+ 
+            

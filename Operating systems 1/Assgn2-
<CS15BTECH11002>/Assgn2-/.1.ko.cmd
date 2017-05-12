@@ -1,0 +1,1 @@
+cmd_/home/nani/Desktop/Assgn2-/1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/nani/Desktop/Assgn2-/1.ko /home/nani/Desktop/Assgn2-/1.o /home/nani/Desktop/Assgn2-/1.mod.o

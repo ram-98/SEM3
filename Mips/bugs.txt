@@ -1,0 +1,34 @@
+
+        Bugs happen quite a many times in software but rare in hardware .Few of the hardware bugs are Intel Skylake bug,TSX bug, Pentium FDIV bug etc...
+Now lets take an use case example of Pentium FDIV bug.
+
+----------->DETECTION
+
+                    Many of the processor bugs are accidentally detected , depending on its purpose as used by consumers.The company takes all the steps 
+for bugs not to occur .So when Thomas Nicely, a professor of mathematics , tried some calculations using this , got errors.Then he reported this to Intel
+ and other contacts .This way this bug  was detected.
+             He gave a simple method to detect the flawed pentinum,
+                            4195835.0/3145727.0 = 1.333 820 449 136 241 002 (Correct value)
+                            4195835.0/3145727.0 = 1.333 739 068 902 037 589 (Value returned by flawed Pentium)
+                                                                (These values are taken from wikipedia)
+
+------------>FIXATION
+
+                    As its a pure manufacturing defect ,its easy to fix the big by correcting the flaw in it.As in this case, Intel decided to use SRT
+ algorithm to increase the execution speed of Floating Point Operations(FPU).This method uses a lookup table which contains 1066 table entries.But due to 
+ a programming error five of them  were not included.When any of these five are fetched by the floating point unit (FPU), it gives incorrect results.
+                    Intel fixed it and all the processors which are built from 1995 are free from it.
+
+------------>HOW INTEL DEALT WITH it
+
+                        This flaw soon spread over internet, press, news channels and the company is heavily criticized .Even IBM, its competetor joined them.
+ Intel dealt with it by saying that most common users wont affect by this and they promised to replace all of the flawed processors which caused trouble .
+ But due to huge pressure ,it decided to all of them if their constomers are willing so.
+
+ ----------->COST OF FIXING
+
+                        Needless to say many millon dollars are spend on replacement .Even IBM stopped shippments of the computers with flawed chip.
+In general the cost depends on compelexity of the bug.Here as it didnt effect most users its quite low .Otherwise if most of them have come for replacement
+then it have been a severe issue to the company. 
+
+                    

@@ -1,0 +1,31 @@
+
+
+
+----	The Design of the program is as follows
+
+	-->>>>You need to give space after each word and comma's must be included with the previous word itself 
+		as ($t0,) and not space must be there between comma and word ,for the simulator to execute 
+		
+	-->>>>Immediate(addi etc) operations doesnt take the value '0' as  immediate and you should use $zero for that 
+		in non-immediate operations (add etc) 
+	
+	--->>>>Any syntax error in the program is reported by the simulator as prescribed by sir, and segmentation fault
+		etc.. are not mentioned by the simulator as sir didnt ask us to do that  and you need to
+		 take proper care of that .
+		
+	---->>>My program also implements an extra instruction 'la' which is not mentioned in the question.
+		This is for the purpose of demonstration of lw, sw
+			
+	--->>>>There are there sample assembly programs along with the source code
+		
+		1.First one is the program which gives maximum of an array of 5 elements in $t3(TUTORIAL PROBLEM 1) 
+			The array is declared at the starting and you can change the values in the program to the output 
+			in $t3.
+			
+		2.Second one contains general instructions with lw, sw , la with 3 arrays declared above .
+		
+		3.Third one contains instructions for logical , arthemetic and controlflow statements
+	
+	----->>>The output of the program is the status of all registers and memory allocated with the simulated memory
+		address.
+		
